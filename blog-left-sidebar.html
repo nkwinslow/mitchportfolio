@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Nifty - Responsive Multi Purpose HTML5 Template</title>
+
+    <!-- Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Styles  CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="container">
+      <div class="row">
+        <div class="header-table col-md-12">
+          <div class="brand">
+            <a href="#">
+              <img src="images/logo.png" alt="Nifty">
+            </a>
+          </div>
+            <nav id="nav-wrap" class="main-nav">
+              <div id="mobnav-btn"> </div>
+              <ul class="sf-menu">
+                <li> 
+                  <a href="index.html">Home</a>
+                  <div class="mobnav-subarrow"><i class="fa fa-caret-down"></i></div>
+                  <ul class="sub-menu">
+                    <li><a href="home2.html">Home 2 - For Architect  </a>  </li>
+                  </ul>
+                </li>
+                <li> 
+                <a href="portfolio-2-col.html">Portfolio</a>
+                <div class="mobnav-subarrow"><i class="fa fa-caret-down"></i></div>
+                  <ul class="sub-menu">
+                    <li><a href="portfolio-2-col.html">Portfolio 2 columns</a></li>
+                    <li><a href="portfolio-3-col.html">Portfolio 3 columns</a></li>
+                    <li><a href="portfolio-4-col.html">Portfolio 4 columns</a></li>
+                    <li><a href="masonry-portfolio.html">Masonry Portfolio</a></li>
+                    <li><a href="single-portfolio.html">Single Portfolio</a></li>
+                    <li><a href="single-portfolio-2.html">Single Portfolio 2</a></li>
+                    <li><a href="single-portfolio-3.html">Single Portfolio 3</a></li>
+                  </ul>
+                </li>
+                <li> 
+                  <a href="about-us.html">Pages </a>
+                  <div class="mobnav-subarrow"><i class="fa fa-caret-down"></i></div>
+                    <ul class="sub-menu">
+                      <li><a href="about-us.html">About us</a></li>
+                      <li><a href="404.html">404 Error</a></li>
+                      <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </li>
+               <li><a href="elements.html">Elements</a></li>
+              <li class="current">
+                <a href="blog-right-sidebar.html">Blog</a> 
+                <div class="mobnav-subarrow"><i class="fa fa-caret-down"></i></div>
+                  <ul class="sub-menu">
+                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                    <li class="current"><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                    <li><a href="single-post.html">Single Post</a></li>
+                  </ul>
+              </li> 
+              <li>
+                <a href="home-page-3.html">Shop</a>
+                <div class="mobnav-subarrow"><i class="fa fa-caret-down"></i></div>
+                  <ul class="sub-menu">
+                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                    <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                    <li><a href="shop-full-width.html">Shop Full Width</a></li>
+                    <li><a href="single-product.html">Single Product</a></li>
+                  </ul>
+              </li>
+
+              <li class="menu-search-bar">
+                <a id="search-label"><i class="fa fa-search"></i></a> 
+                <form class="search-bar" id="searchform">
+                  <input type="text"  placeholder="Search" name="s">  
+                </form>
+              </li>
+            </ul>
+ 
+
+
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header> 
+<div class="pages-header-container">         
+  <div class="container">
+    <div class="row"> 
+      <div class="col-lg-12">
+        <div class="pages-header">
+          <h3 class="title-un"><a href="about-us.html">Right Sidebar Blog</a></h3>
+            <ul class="breadcrumbs">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">Portfolio 4 columns</a></li>
+            </ul> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="blog-posts">
+    <div class="row">
+
+      <div class="col-lg-3">
+        <div class="sidebar">
+
+          <div class="widget">
+            <div class="search-widget">
+              <form method="get" id="searchform">
+                <input type="text" onkeyup="keyUp();" onblur="if(this.value == '') {this.value=this.defaultValue}" onfocus="if(this.value=='' || this.value == 'Search...') this.value=''" value="Search..." name="s">
+                <input type="submit" value="">
+                <i class="fa fa-search search-button"></i>
+              </form>
+            </div>
+          </div>
+
+          <div class="widget widget_categories">
+              <h4 class="btline-title">Categories</h4>
+              <ul>
+                <li>
+                  <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <a href="#">Identity Design</a>
+                </li>
+                <li>
+                  <a href="#">Business</a>
+                </li>
+                <li>
+                  <a href="#">Traveling </a>
+                </li>
+                <li>
+                  <a href="#">Development </a>
+                </li>
+                <li>
+                  <a href="#">Photography </a>
+                </li>
+              </ul>
+          </div>
+
+          <div class="widget widget_recent_entries">
+              <h4 class="btline-title">Recent Posts</h4>
+              <ul>
+                <li>
+                  <a href="single-post.html">This is a title of web design post</a>
+                </li>
+                <li>
+                  <a href="single-post.html">Identity design is show your self</a>
+                </li>
+                <li>
+                  <a href="single-post.html">Business strategy is important</a>
+                </li>
+                <li>
+                  <a href="single-post.html">How to start travel in a good way.</a>
+                </li>
+                <li>
+                  <a href="single-post.html">Start Development in a good way </a>
+                </li>
+                <li>
+                  <a href="single-post.html">Some inspiration of  Photography</a>
+                </li>
+              </ul>
+          </div> 
+
+          <div class="widget">
+              <h4 class="btline-title">About Blog</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur elit porta. Vestibulum ante justo, volutpat quis porta non, vulputate id diam. Lorem et ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div> 
+
+        </div>
+      </div>
+      
+      <div class="col-lg-9">
+        <div class="blog-post">
+          <div class="single-post">
+            <div class="post-img">
+              <img src="http://placehold.it/848x600" alt="">
+                <div class="overlay"> 
+                </div>
+            </div>
+            <div class="post-info">
+              <h3 class="post-title"><a href="single-post.html"> Meet the New UI Design </a></h3>
+              <div class="post-meta">
+                <span>4 October 2014 </span>
+                <span>in <a href="#">Design</a> </span>
+                <span>by <a href="#">Amjad Ali</a></span> 
+              </div>
+              <div class="post-excerpt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nunc id eros congue, pharetra adipiscing augue pulvinar. Phasellus malesuada mi vel nisi eleifend, nec venenatis dolor placerat. Suspendisse quis nisi nisi. Sed porttitor molestie nisi, ac euismod mi. Integer augue neque. nec venenatis dolor placerat. Etiam iaculis odio eget nunc volutpat rutrum. Sed porttitor molestie nisi, ac euismod mi. Integer augue neque.</p>
+                <a href="single-post.html" class="readmore">Read More > </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="single-post">
+            <div class="post-img">
+              <img src="http://placehold.it/848x600" alt="">
+                <div class="overlay"> 
+                </div>
+            </div>
+            <div class="post-info">
+              <h3 class="post-title"><a href="single-post.html"> A look inside the  Workspace </a></h3>
+              <div class="post-meta">
+                <span>4 October 2014 </span>
+                <span>in <a href="#">Workspace</a> </span>
+                <span>by <a href="#">Amjad Ali</a></span> 
+              </div>
+              <div class="post-excerpt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nunc id eros congue, pharetra adipiscing augue pulvinar. Phasellus malesuada mi vel nisi eleifend, nec venenatis dolor placerat. Suspendisse quis nisi nisi. Sed porttitor molestie nisi, ac euismod mi. Integer augue neque. nec venenatis dolor placerat. Etiam iaculis odio eget nunc volutpat rutrum.</p>
+                <a href="single-post.html" class="readmore">Read More > </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div class="single-post">
+            <div class="post-img">
+              <img src="http://placehold.it/848x600" alt="">
+                <div class="overlay"> 
+                </div>
+            </div>
+            <div class="post-info">
+              <h3 class="post-title"><a href="single-post.html"> Inspiration of UX design </a></h3>
+              <div class="post-meta">
+                <span>4 October 2014 </span>
+                <span>in <a href="#">Design</a> </span>
+                <span>by <a href="#">Amjad Ali</a></span> 
+              </div>
+              <div class="post-excerpt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nunc id eros congue, pharetra adipiscing augue pulvinar. Phasellus malesuada mi vel nisi eleifend, nec venenatis dolor placerat. Suspendisse quis nisi nisi. Sed porttitor molestie nisi, ac euismod mi. Integer augue neque. nec venenatis dolor placerat. Etiam iaculis odio eget nunc volutpat rutrum.</p>
+                <a href="single-post.html" class="readmore">Read More > </a>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          <ul class="pagination-cm"> 
+            <li class="total-pages">Pages 1 of 3</li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">></a></li>
+          </ul>
+
+      </div>
+      
+
+
+    </div>
+  </div>
+</div>
+
+<div class="footer-area-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="footer-widget"> 
+          <img class="fotter-logo" src="images/fotter-logo.png" alt="">
+          <p>222 Ave C South Saskatoon,17 Elizabeth Street Mountain Road.</p>
+          <p>Email: hellonifty@nifty.com <br>
+          Fax:  92.206.222.3358</p>
+          <strong>92.306.222.3358</strong>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-widget widget_nav_menu">
+        <h4 class="footer-widget-title">ADDITIONAL LINKS</h4>
+        <ul> 
+          <li class="menu-item"><a href="#"> Creative homepage </a></li>
+          <li class="menu-item"><a href="#"> Company Analysis </a></li>
+          <li class="menu-item"><a href="#"> Brand Creation  </a></li>
+          <li class="menu-item"><a href="#"> Corporate Identity </a></li>
+          <li class="menu-item"><a href="#"> Press inquiries</a></li>
+          <li class="menu-item"><a href="#"> Prdoucts Waranty </a></li>
+        </ul>
+
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-widget widget_nav_menu">
+        <h4 class="footer-widget-title">Useful links</h4>
+        <ul> 
+          <li class="menu-item"><a href="#"> Creative homepage </a></li>
+          <li class="menu-item"><a href="#"> Company Analysis </a></li>
+          <li class="menu-item"><a href="#"> Brand Creation  </a></li>
+          <li class="menu-item"><a href="#"> Corporate Identity </a></li>
+          <li class="menu-item"><a href="#"> Press inquiries</a></li>
+          <li class="menu-item"><a href="#"> Prdoucts Waranty </a></li>
+        </ul>
+
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-widget">
+          <h4 class="footer-widget-title">Flickr stream</h4>
+          <ul id="cbox" class="flickr-thumbs"></ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<div class="footer-holder">
+  <div class="container"> 
+    <footer class="site-footer">
+      <div class="row">
+        <div class="col-lg-12"> 
+        <p>© Copyright Energetic Themes</p>
+
+        </div> 
+      </div>
+    </footer>  
+  </div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script src="js/jflickrfeed.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/jquery.fractionslider.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
