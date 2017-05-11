@@ -1,9 +1,5 @@
 /*------------------------------------------------------------------
-* Grand - Creative Responsive Multipurpose Template
-* Version: 1.1.5
-* Last change:  01/15/16
-* http://www.energeticthemes.com/templates/grand/index.html
-* DATE: 01/08/15
+Table of Contents
 
 1 - BASE 
 2 - Header
@@ -4376,3 +4372,55 @@ padding: 0 0 6px 0;
 .man-home-port {
   margin-bottom: 60px;
 } 
+
+/*MODAL*/
+.modal {
+    padding-top: 10px;
+}
+
+.modal label {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.modal-content {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.modal-header {
+    position: relative;
+    padding: 18px 40px 20px;
+    color: #fff;
+    background-color: #303030;
+}
+
+.modal-header .close {
+    position: absolute;
+    top: 10px;
+    right: -24px;
+    float: none;
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    font-weight: 100;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    text-shadow: none;
+}
+
+.modal-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.modal-title + p {
+    margin-top: 3px;
+}
+
+.modal-body {
+    padding: 40px;
+    background-color: #f3f3f3;
+}
