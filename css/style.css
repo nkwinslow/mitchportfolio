@@ -1626,7 +1626,7 @@ transition: all .5s cubic-bezier(0.25,.46,.45,.94);
 
 .container-prjects-b {
   background: #fff;
-  padding: 81px 0 54px 0;
+  padding: 0px 0 54px 0;
 }
 .projects-view {
   margin: 20px 0 35px 0;
@@ -4066,7 +4066,7 @@ vertical-align: middle;
 .slider-wrapper{
   position:relative;
   overflow:hidden;
-  max-height: 550px;
+  max-height: 880px;
 }
  
 

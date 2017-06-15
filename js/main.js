@@ -108,7 +108,7 @@ jQuery(window).load(function() {
 $(document).ready(function() {
  "use strict";
   $("#owl-demo").owlCarousel({
-    autoPlay : 3000,
+    autoPlay : 2000,
     stopOnHover : true,
     navigation:false,
     paginationSpeed : 1000,
@@ -127,10 +127,10 @@ $(document).ready(function() {
   owl.owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed :1000,
-      autoPlay : 3000,
+      autoPlay : 2000,
       paginationSpeed : 2000,
       singleItem:true,
-      pagination : true,
+      pagination : false,
   });
  
   // Custom Navigation Events
@@ -310,10 +310,10 @@ $(window).load(function(){
     'controls':  false,
     'pager': true,
     'speedOut' : 2600,
-    'timeout' : 6000,  
+    'timeout' : 5000,  
     'responsive': true,
     'increase': true,
-    'dimensions': '1170 , 550',
+    'dimensions': '1170 , 800',
   });
  
   var viewportWidth = $(window).width();
@@ -364,5 +364,4 @@ $(window).load(function(){
   });
 
 });
-
 
