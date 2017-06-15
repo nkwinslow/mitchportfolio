@@ -127,10 +127,10 @@ $(document).ready(function() {
   owl.owlCarousel({
       navigation : false, // Show next and prev buttons
       slideSpeed :1000,
-      autoPlay : 10000,
+      autoPlay : 3000,
       paginationSpeed : 2000,
       singleItem:true,
-      pagination : false,
+      pagination : true,
   });
  
   // Custom Navigation Events

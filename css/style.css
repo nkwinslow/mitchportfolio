@@ -309,7 +309,7 @@ select {
   display: block;
   position: relative;
   font-size: 12px;
-  color: #fff;
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
@@ -319,13 +319,13 @@ select {
   padding: 25px 24px; 
  }
 .main-nav .sf-menu li.current a {
-  color: #a67c52;
+  color: #b0bec5;
 }
  .main-nav .sf-menu li.current ul a {
   color: #111111; 
  }
  .main-nav .sf-menu li ul li.current a {
-  color: #a67c52;
+  color: #b0bec5;
  }
 .main-nav .sf-menu ul {
   background-color: #fafafa;
@@ -339,7 +339,7 @@ select {
   z-index: 99;
   margin: 1px 0;
   padding: 3px 0 5px 0;
-  border-top: solid 3px #a67c52;   
+  border-top: solid 3px #b0bec5;   
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.05);
   box-shadow: 0 1px 3px rgba(0,0,0,.05);
 }
@@ -355,7 +355,7 @@ select {
 }
  
 .main-nav .sf-menu a:hover {
-  color: #a67c52;
+  color: #b0bec5;
 } 
 .main-nav .sf-menu ul li {
   min-width: 225px; 
@@ -1007,12 +1007,12 @@ content: " ";
 =================================================*/
 
 .button {
-  color: #a67c52;
+  color: #414141;
   font-size: 13px;
   font-weight: bold;
   padding: 12px 32px;
   margin: 5px 0;
-  border: solid 2px #a67c52;
+  border: solid 2px #869791;
   letter-spacing: 2px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1576,7 +1576,7 @@ transition: all .5s cubic-bezier(0.25,.46,.45,.94);
   font-size: 36px;
   line-height:77px;
   color:#fff;
-  background:#a67c52;
+  background:#414141;
   width: 77px;
   height: 77px;
   -webkit-border-radius: 50%;
