@@ -1626,7 +1626,7 @@ transition: all .5s cubic-bezier(0.25,.46,.45,.94);
 
 .container-prjects-b {
   background: #fff;
-  padding: 0px 0 54px 0;
+  padding: 81px 0 54px 0;
 }
 .projects-view {
   margin: 20px 0 35px 0;
@@ -1743,12 +1743,12 @@ margin: 5px;
   letter-spacing: 2px;
 }
 .port-filter ul li a:hover {
-  color: #a67c52;
+  color: #b0bec5;
 }
 .port-filter ul li.active a {
   color: #fff;
-  background: #a67c52;
-  border-color: #ac3b35;
+  background: #b0bec5;
+  border-color: #b0bec5;
 }
 
 .portfolio-container .pagination-cm {
@@ -4066,7 +4066,7 @@ vertical-align: middle;
 .slider-wrapper{
   position:relative;
   overflow:hidden;
-  max-height: 880px;
+  max-height: 950px;
 }
  
 
